@@ -13,7 +13,7 @@ setupDB()
 
 
 app.get('/',(req,res) => {
-    res.json('Welcome')
+    res.json('Welcome to you')
 })
 
 app.use('/user', usersRouter)

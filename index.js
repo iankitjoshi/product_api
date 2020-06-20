@@ -4,7 +4,7 @@ const { usersRouter } = require('./app/controller/UserController')
 const router = require('./config/routes')
 const app = express()
 
-const port = 3010
+const port = process.env.PORT || 3010
 
 
 app.use(express.json())
